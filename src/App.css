@@ -1,0 +1,89 @@
+body {
+	background: ghostwhite;
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+}
+
+.container {
+	display: block;
+	margin: 0 auto;
+	max-width: 350px;
+	background: rgb(224, 222, 222);
+  height: 100vh;
+  padding: 0 30px 20px 30px;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.container h1 {
+  padding-top: 10px;
+  margin: 0;
+}
+.incomeExpense {
+	width: 100%;
+	height: 120px;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+}
+.text-center{
+  text-align: center;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+
+.income, .expense{
+  text-transform: uppercase;
+}
+.incomeExpense p{
+font-size: 20px !important;
+font-weight: bolder;
+}
+.incomeRupees{
+  color: green;
+}
+.expenseRupees{
+  color: red;
+}
+
+input{
+  width: 96%;
+  outline: none;
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+  padding-left: 10px;
+}
+
+.amountmsg{
+  padding: 10px 0 10px 0;
+}
+.textmsg{
+  padding-bottom: 10px;
+}
+.transaction-list li{
+display: flex;
+justify-content: space-between;
+background: white;
+margin: 10px 0 0 0;
+padding: 5px;
+}
+ul{
+  padding-inline-start: 0px !important;
+}
+li{
+  list-style: none;
+}
+
+
+.transactionButton {
+  display: block;
+  margin: 10px 0 10px 0;
+	color: white;
+	background: purple;
+	border-radius: 10px;
+  padding: 5px;
+  text-align:center;
+}
